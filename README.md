@@ -5,10 +5,7 @@ I have built a script that will automatically populate the fields in the Common 
 1. Download the cds pdf template file <br>
 2. Download the cds excel template file and fill out with data. The python script loads in the "Answer Sheet" tab from that excel file.  <br>
 3. From this github, download the excel_to_pdf.ipynb to run on your computer locally if you already have python installed, or download excel_to_pdf.exe if you don't want to use python.
-4. Create a .env file with filepaths to the empty pdf template and filled excel template: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;excel_file_path=C:\Users\user1\Downloads <br>
-&nbsp;&nbsp;&nbsp;&nbsp;pdf_file_path=C:\Users\user1\Downloads\CDS-PDF-2025-2026_PDF_Template.pdf <br>
-The .env file needs to be in the same folder as excel_to_pdf.ipynb or excel_to_pdf.exe. It doesn't matter where you put the template pdf/excel files, mine happen to be in the downloads folder. I've uploaded env_sample.txt to this github, which you can download, change filepaths, and then rename as ".env" (instead of env_sample.txt).
+4. Create a .env file with filepaths to the empty pdf template and filled excel template. I've uploaded env_sample.txt to this github, which you can download, change filepaths to where your data is, and then rename as ".env" (instead of env_sample.txt). Don't rename the variables, and do not include " " around the filepath. The .env file needs to be in the same folder as excel_to_pdf.ipynb or excel_to_pdf.exe. It doesn't matter where you put the template pdf/excel files, mine happen to be in the downloads folder. 
 5. Run the python file or .exe file. <br>
 <br>
 
