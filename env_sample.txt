@@ -1,2 +1,2 @@
-excel_file_path=C:\Users\user1\Downloads
+excel_file_path=C:\Users\user1\Downloads\CDS-PDF-2025-2026-Excel_Template.xlsx
 pdf_file_path=C:\Users\user1\Downloads\CDS-PDF-2025-2026_PDF_Template.pdf
